@@ -5,11 +5,12 @@ Front will be hosted from the same server as the graphql endpoint, in a single d
 
 ### plan
 
-* [ ] initializing django project
-* [ ] creating graphql app (using graphene)
-* [ ] creating models (Todos)
-* [ ] creating schemas for graphql
-* [ ] creating the more complicated queries (querying with parameters)
+* [x] initializing django project
+* [x] creating graphql app (using graphene)
+* [x] creating models (Todos)
+* [x] creating schemas for graphql
+* [x] creating the more complicated queries (querying with parameters)
+* [x] creating mutations for graphql so it is modifiable
 * [ ] creating react app
 * [ ] setting up apollo client to be able to consume graphql
 * [ ] setting up the UI (creating components)
