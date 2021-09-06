@@ -1,0 +1,47 @@
+.app {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.create {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #9df7ff;
+
+}
+
+.todoContainer {
+    padding: 0;
+    display: inline-block;
+    flex-direction: column;
+    width: 200px;
+
+    height: 100%;
+}
+
+.todo {
+    background-color: #f69e9e;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.task {
+    display: inline-block;
+    width: 160px;
+    word-wrap: break-word;
+}
+
+.completeTodo {
+    background-color: #aef69e;
+
+}
