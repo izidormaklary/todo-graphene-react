@@ -28,7 +28,7 @@ const csrftoken = getCookie('csrftoken')
 const client = new ApolloClient({
     uri: '/graphql/',
     cache: new InMemoryCache(),
-    //credentials: 'include',
+    credentials: 'include',
     headers: {
         'X-CSRFToken': csrftoken,
     },
